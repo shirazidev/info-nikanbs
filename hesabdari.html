@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اطلاعات دوره ها - دانشگاه آزاد با همکاری نیکان</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;800&display=swap');
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+        }
+        .mobile-screen::-webkit-scrollbar {
+            width: 4px;
+        }
+        .mobile-screen::-webkit-scrollbar-thumb {
+            background-color: #F57C00; 
+            border-radius: 20px;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'nikan-navy': '#1A237E',
+                        'nikan-orange': '#F57C00',
+                        'nikan-orange-hover': '#EF6C00',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-200 md:flex md:items-center md:justify-center min-h-screen p-4">
+
+    <div class="hidden md:block w-full max-w-[420px] aspect-[9/16] bg-black rounded-[40px] shadow-2xl p-3">
+        <div class="w-full h-full bg-white rounded-[30px] overflow-hidden relative">
+            <div class="absolute top-0 left-1/2 -translate-x-1/2 w-28 h-6 bg-black rounded-b-xl z-10"></div>
+            <div class="mobile-screen h-full w-full overflow-y-auto bg-gray-50">
+                <div class="p-5 space-y-6">
+                    <div class="text-center pt-6">
+                        <div class="flex items-center justify-center mb-4 relative">
+                            <div class="flex items-center justify-center p-2 border border-gray-300 rounded-lg bg-white shadow-sm flex-shrink-0">
+                                <img class="h-16 w-16 object-contain" src="./iau-shiraz.png" alt="لوگوی دانشگاه آزاد شیراز">
+                            </div>
+                            
+                            <div class="flex items-center mx-2 sm:mx-4 relative">
+                                <div class="absolute w-full h-[1px] bg-gray-300"></div>
+                                <span class="text-xl font-light text-gray-400 bg-gray-50 px-2 z-10">+</span>
+                            </div>
+
+                            <div class="flex items-center justify-center p-2 border border-gray-300 rounded-lg bg-white shadow-sm flex-shrink-0">
+                                <img class="h-16 w-16 object-contain" src="./logo.png" alt="لوگوی شرکت نیکان">
+                            </div>
+                        </div>
+                        
+
+                        <h1 class="text-2xl font-extrabold text-nikan-navy mt-4">دانشگاه آزاد اسلامی</h1>
+                        <a href="https://nikansoft.com" target="_blank" class="text-sm text-gray-600 mt-2 block">با همکاری شرکت نرم افزاری نیکان برگزار میکند</a>
+                    </div>
+                    <div class="space-y-5">
+                        <div>
+                            <h2 class="text-center text-lg font-bold text-nikan-navy mb-3 pb-2 border-b-2 border-nikan-orange">دوره‌های حسابداری</h2>
+                            <div class="space-y-3">
+                                <a href="#" class="block w-full text-center bg-nikan-navy hover:bg-nikan-orange-hover text-white font-bold py-3 px-4 rounded-lg shadow-sm transition-transform transform hover:-translate-y-1">هوش مصنوعی در حسابداری</a>
+                                <a href="#" class="block w-full text-center bg-nikan-navy hover:bg-nikan-orange-hover text-white font-bold py-3 px-4 rounded-lg shadow-sm transition-transform transform hover:-translate-y-1">حسابداری مالیاتی</a>
+                                <a href="#" class="block w-full text-center bg-nikan-navy hover:bg-nikan-orange-hover text-white font-bold py-3 px-4 rounded-lg shadow-sm transition-transform transform hover:-translate-y-1">حسابداری جامع</a>
+                                <a href="#" class="block w-full text-center bg-nikan-navy hover:bg-nikan-orange-hover text-white font-bold py-3 px-4 rounded-lg shadow-sm transition-transform transform hover:-translate-y-1">تحلیل صورت های مالی</a>
+                                <a href="#" class="block w-full text-center bg-nikan-navy hover:bg-nikan-orange-hover text-white font-bold py-3 px-4 rounded-lg shadow-sm transition-transform transform hover:-translate-y-1">حسابداری پیشرفته</a>
+                                <a href="#" class="block w-full text-center bg-nikan-navy hover:bg-nikan-orange-hover text-white font-bold py-3 px-4 rounded-lg shadow-sm transition-transform transform hover:-translate-y-1">حسابداری بازار کار</a>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="text-center pt-4 pb-2">
+                        <a href="https://nikanbs.ir/" target="_blank" class="text-xs text-gray-500 hover:text-nikan-navy">www.nikanbs.ir</a>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block md:hidden w-full max-w-md mx-auto bg-gray-50 rounded-2xl shadow-md p-5 space-y-6">
+        <div class="text-center">
+            <div class="flex items-center justify-center mb-4 relative">
+                <div class="flex items-center justify-center p-2 border border-gray-300 rounded-lg bg-white shadow-sm flex-shrink-0">
+                    <img class="h-16 w-16 object-contain" src="./iau-shiraz.png" alt="لوگوی دانشگاه آزاد شیراز">
+                </div>
+                
+                <div class="flex items-center mx-2 sm:mx-4 relative">
+                    <div class="absolute w-full h-[1px] bg-gray-300"></div>
+                    <span class="text-xl font-light text-gray-400 bg-gray-50 px-2 z-10">+</span>
+                </div>
+
+                <div class="flex items-center justify-center p-2 border border-gray-300 rounded-lg bg-white shadow-sm flex-shrink-0">
+                    <img class="h-16 w-16 object-contain" src="./logo.png" alt="لوگوی شرکت نیکان">
+                </div>
+            </div>
+
+            <h1 class="text-2xl font-extrabold text-nikan-navy mt-4">دانشگاه آزاد اسلامی</h1>
+            <a href="https://nikansoft.com" target="_blank" class="text-sm text-gray-600 mt-2 block">با همکاری شرکت نرم افزاری نیکان برگزار میکند</a>
+        </div>
+        <div class="space-y-5">
+            <div>
+                <h2 class="text-center text-lg font-bold text-nikan-navy mb-3 pb-2 border-b-2 border-nikan-orange">دوره‌های حسابداری</h2>
+                <div class="space-y-3">
+                    <a href="#" class="block w-full text-center bg-nikan-navy hover:bg-gray-700 text-white font-bold py-3 px-4 rounded-lg shadow-sm transition-transform transform hover:-translate-y-1">هوش مصنوعی در حسابداری</a>
+                    <a href="#" class="block w-full text-center bg-nikan-navy hover:bg-gray-700 text-white font-bold py-3 px-4 rounded-lg shadow-sm transition-transform transform hover:-translate-y-1">حسابداری مالیاتی</a>
+                    <a href="#" class="block w-full text-center bg-nikan-navy hover:bg-gray-700 text-white font-bold py-3 px-4 rounded-lg shadow-sm transition-transform transform hover:-translate-y-1">حسابداری جامع</a>
+                    <a href="#" class="block w-full text-center bg-nikan-navy hover:bg-gray-700 text-white font-bold py-3 px-4 rounded-lg shadow-sm transition-transform transform hover:-translate-y-1">تحلیل صورت های مالی</a>
+                    <a href="#" class="block w-full text-center bg-nikan-navy hover:bg-gray-700 text-white font-bold py-3 px-4 rounded-lg shadow-sm transition-transform transform hover:-translate-y-1">حسابداری پیشرفته</a>
+                    <a href="#" class="block w-full text-center bg-nikan-navy hover:bg-gray-700 text-white font-bold py-3 px-4 rounded-lg shadow-sm transition-transform transform hover:-translate-y-1">حسابداری بازار کار</a>
+                </div>
+            </div>
+        </div>
+        <footer class="text-center pt-4 pb-2">
+            <a href="https://nikanbs.ir/" target="_blank" class="text-xs text-gray-500 hover:text-nikan-navy">www.nikanbs.ir</a>
+        </footer>
+    </div>
+</body>
+</html>
